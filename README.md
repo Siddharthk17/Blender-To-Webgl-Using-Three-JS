@@ -8,12 +8,17 @@
 [![WebGL](https://img.shields.io/badge/WebGL-2.0-990000?style=for-the-badge&logo=webgl&logoColor=white)](https://www.khronos.org/webgl/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Netlify](https://img.shields.io/badge/Netlify-Live-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://space-station-3js.netlify.app/)
 
 <br/>
 
 *Transform stunning 3D models into immersive, browser-based WebGL experiences*
 
-<img src="https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif" width="500px" alt="Space Animation"/>
+<img src="https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy. gif" width="500px" alt="Space Animation"/>
+
+<br/>
+
+### 🌐 [**View Live Demo →**](https://space-station-3js.netlify.app/)
 
 ---
 
@@ -49,7 +54,7 @@ An interactive **3D Space Station Viewer** built with cutting-edge web technolog
 │                    RENDERING ENGINE                     │
 ├─────────────────────────────────────────────────────────┤
 │  Three.js v0.160.0                                      │
-│  ├── GLTFLoader      → 3D Model Import (. glb/. gltf)   │
+│  ├── GLTFLoader      → 3D Model Import (. glb/.gltf)    │
 │  ├── OrbitControls   → Interactive Camera Movement      │
 │  ├── RoomEnvironment → HDR Environment Mapping          │
 │  └── PostProcessing  → Bloom, Render, Output Passes     │
@@ -60,7 +65,13 @@ An interactive **3D Space Station Viewer** built with cutting-edge web technolog
 
 ## 🎮 Live Demo
 
-Simply open `index.html` in any modern browser — no build step required! 
+<div align="center">
+
+### 🔗 **[https://space-station-3js.netlify.app/](https://space-station-3js.netlify.app/)**
+
+</div>
+
+Or run it locally:
 
 ```bash
 # Clone the repository
@@ -109,7 +120,7 @@ Blender-To-Webgl-Using-Three-JS/
 ```javascript
 // Cinematic bloom configuration
 const bloomPass = new UnrealBloomPass(
-    new THREE.Vector2(window.innerWidth, window.innerHeight),
+    new THREE.Vector2(window. innerWidth, window.innerHeight),
     1.5,   // strength  → Intensity of the glow
     0.4,   // radius    → Spread of the bloom
     0.75   // threshold → Brightness cutoff
@@ -185,7 +196,7 @@ loader.load('your_model.glb', (gltf) => {
 ## 📚 Learning Resources
 
 - 📖 [Three.js Documentation](https://threejs.org/docs/)
-- 🎓 [Three.js Fundamentals](https://threejs.org/manual/#en/fundamentals)
+- 🎓 [Three. js Fundamentals](https://threejs.org/manual/#en/fundamentals)
 - 🎨 [Blender to Web Guide](https://threejs.org/docs/#manual/en/introduction/Loading-3D-models)
 - ✨ [Post-Processing in Three.js](https://threejs.org/docs/#manual/en/introduction/How-to-use-post-processing)
 
@@ -193,7 +204,7 @@ loader.load('your_model.glb', (gltf) => {
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to: 
+Contributions are welcome!  Feel free to: 
 
 - 🐛 Report bugs
 - 💡 Suggest features
