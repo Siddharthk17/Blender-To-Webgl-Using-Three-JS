@@ -14,7 +14,6 @@
 
 *Transform stunning 3D models into immersive, browser-based WebGL experiences*
 
-<img src="https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy. gif" width="500px" alt="Space Animation"/>
 
 <br/>
 
